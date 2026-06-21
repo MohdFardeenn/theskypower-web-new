@@ -75,7 +75,7 @@ const Contact = () => {
             <span><FaPhoneAlt/></span>
             <div>
               <h4>Call Us</h4>
-              <p>+91 9876543210</p>
+              <p>+91 7351211915 (IND) <br/> +971 58 262 6639 (UAE)</p>
             </div>
           </div>
 

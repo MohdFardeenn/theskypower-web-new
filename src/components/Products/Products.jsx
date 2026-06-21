@@ -25,11 +25,11 @@ const products = [
     image: lithium,
   },
   {
-    title: " Lithium Batteries",
+    title: " Inverter Tubular Battery",
     image: erickshaw,
   },
   {
-    title: "Automotive Batteries",
+    title: "E Rikshaw Lithium Battery",
     image: industrial,
   },
 ];

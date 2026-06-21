@@ -32,7 +32,7 @@ function Footer() {
             <h4>FOR SALES ENQUIRY</h4>
 
             <p>
-              <FaPhoneAlt /> +91 9876543210
+              <FaPhoneAlt /> +91 7351211915 (IND), +971 58 262 6639 (UAE)
             </p>
 
             <p>
@@ -79,7 +79,7 @@ function Footer() {
       </div>
 
       <div className="copyright">
-        © 2026 SKYPower Batteries. All Rights Reserved.
+        © 2025 SKYPower Batteries. All Rights Reserved.
       </div>
 
     </footer>
