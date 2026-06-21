@@ -1,0 +1,104 @@
+.footer {
+  background: #e30613;
+  color: white;
+  padding-top: 80px;
+}
+
+.footer-container {
+  width: 90%;
+  margin: auto;
+
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 60px;
+}
+
+.footer-logo {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.footer-col p {
+  line-height: 1.8;
+}
+
+.quote-btn {
+  margin: 30px 0;
+
+  background: transparent;
+  border: 2px solid white;
+
+  color: white;
+
+  padding: 12px 25px;
+
+  font-size: 1.1rem;
+  font-weight: 600;
+
+  cursor: pointer;
+}
+
+.contact-box h4 {
+  margin-bottom: 15px;
+}
+
+.contact-box p {
+  margin-bottom: 10px;
+}
+
+.footer-col h3 {
+  margin-bottom: 25px;
+  font-size: 1.6rem;
+}
+
+.footer-col ul {
+  list-style: none;
+}
+
+.footer-col ul li {
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+
+  margin-top: 60px;
+}
+
+.social-icons svg {
+  width: 45px;
+  height: 45px;
+
+  border: 2px solid white;
+  border-radius: 50%;
+
+  padding: 10px;
+  cursor: pointer;
+}
+
+.copyright {
+  text-align: center;
+
+  padding: 25px 0;
+  margin-top: 40px;
+
+  background: white;
+  color: #222;
+}
+
+/* Mobile */
+
+@media (max-width: 900px) {
+
+  .footer-container {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-logo {
+    font-size: 2.3rem;
+  }
+
+}

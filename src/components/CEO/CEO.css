@@ -1,0 +1,137 @@
+.ceo-section {
+  padding: 100px 80px;
+  background: white;
+}
+
+.ceo-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.ceo-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.ceo-image img {
+  width: 100%;
+  max-width: 450px;
+  height: auto;
+  min-height: 400px;
+  border-radius: 20px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+  object-fit: cover;
+  aspect-ratio: 3/4;
+}
+
+.ceo-info h2 {
+  font-size: 3rem;
+  font-weight: 300;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.ceo-info .divider {
+  width: 60px;
+  height: 4px;
+  background: #e30613;
+  margin-bottom: 30px;
+}
+
+.ceo-info h3 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.ceo-title {
+  font-size: 1.2rem;
+  color: #e30613;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.ceo-description {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.8;
+  margin-bottom: 30px;
+  text-align: justify;
+}
+
+.company-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin: 40px 0;
+  padding: 30px;
+  background: #f5f5f5;
+  border-radius: 15px;
+}
+
+.info-item h4 {
+  font-size: 1rem;
+  color: #666;
+  font-weight: 600;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.info-item p {
+  font-size: 1.8rem;
+  color: #333;
+  font-weight: 700;
+}
+
+.info-item span {
+  color: #e30613;
+}
+
+.ceo-quote {
+  font-size: 1.1rem;
+  color: #666;
+  font-style: italic;
+  line-height: 1.8;
+  padding-top: 20px;
+  border-top: 2px solid #e30613;
+}
+
+@media (max-width: 992px) {
+  .ceo-container {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .ceo-info h2 {
+    font-size: 2.5rem;
+  }
+
+  .ceo-description {
+    text-align: left;
+  }
+}
+
+@media (max-width: 768px) {
+  .ceo-section {
+    padding: 60px 20px;
+  }
+
+  .ceo-info h2 {
+    font-size: 2rem;
+  }
+
+  .ceo-info h3 {
+    font-size: 1.5rem;
+  }
+
+  .company-info {
+    grid-template-columns: 1fr;
+  }
+}
